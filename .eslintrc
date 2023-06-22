@@ -1,0 +1,10 @@
+{
+  "extends": "eslint-config-egg",
+  "root": true,
+  "rules": {
+    "indent": ["error", 2], // tab间隔为2
+    "no-console": 1, // 打印日志
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }], //链式调用超过2个则换行
+    "no-unused-vars": 1 // 警告未使用的变量
+  }
+}
